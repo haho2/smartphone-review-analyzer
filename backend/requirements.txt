@@ -9,3 +9,4 @@ google-generativeai
 pymongo
 python-dotenv
 thefuzz
+gunicorn
