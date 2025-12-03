@@ -90,28 +90,6 @@ python batch_crawler.py
 
 ## 🌐 배포
 
-### Vercel (Frontend) + Railway/Render (Backend)
-
-#### Frontend 배포 (Vercel)
-1. [Vercel](https://vercel.com)에 로그인
-2. GitHub 저장소 연결
-3. Root Directory: `frontend` 설정
-4. Build Command: `npm run build`
-5. Output Directory: `dist`
-6. Environment Variables: 없음 (API는 백엔드에서 처리)
-
-#### Backend 배포 (Railway)
-1. [Railway](https://railway.app)에 로그인
-2. GitHub 저장소 연결
-3. New Project → Deploy from GitHub repo
-4. Root Directory: `backend` 설정
-5. Start Command: `python app.py`
-6. Environment Variables 설정:
-   - `MONGODB_URI`
-   - `MONGODB_DATABASE`
-   - `MONGODB_COLLECTION`
-   - `GOOGLE_API_KEY`
-
 #### Backend 배포 (Render)
 1. [Render](https://render.com)에 로그인
 2. New → Web Service
@@ -168,11 +146,8 @@ CORS(app, resources={r"/api/*": {"origins": ["https://your-frontend.vercel.app"]
 ### GET `/api/purchase-guide/<product_name>`
 구매 가이드 생성 상태 및 결과 조회
 
-## 📄 라이선스
-
-MIT License
 
 ## 👤 작성자
 
-Your Name
+이건영
 
